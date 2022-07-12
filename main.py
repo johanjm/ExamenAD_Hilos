@@ -5,9 +5,6 @@ def hilos(): #funcion random
   print ("hilo principal inicio")
   time.sleep(10)
   print ("hilo principal fin")
-  
-  
-
 
 prueba = threading.Thread(target= hilos) #creamos un threading que iniciará un hilo de ejecución  
 prueba.start() #iniciamos el threading
